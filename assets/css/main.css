@@ -314,6 +314,25 @@ h6 {
     left: -100%;
     visibility: visible;
   }
+  .download{
+    border: none;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    background-color: var(--accent-color);
+  }
+  .download span{
+    margin-left: 15px;
+  }
+  .download-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .download-container a img{
+    height: 50px;
+  }
 }
 
 /* Mobile Navigation */
@@ -439,6 +458,25 @@ h6 {
 
   .mobile-nav-active .navmenu > ul {
     display: block;
+  }
+  .download{
+    border: none;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    background-color: var(--accent-color);
+  }
+  .download span{
+    margin-left: 15px;
+  }
+  .download-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .download-container a img{
+    height: 50px;
   }
 }
 
@@ -679,6 +717,26 @@ h6 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+  .download{
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: var(--accent-color);
+  }
+  .download span{
+    margin-left: 0px;
+  }
+  .download-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .download-container a img{
+    width: 120px;
+    height: 40px;
   }
 }
 
